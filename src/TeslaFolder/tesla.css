@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+
+
+.section1div{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.titlediv{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.titlediv h1{
+    font-size: 50px;
+}
+
+.twobuttons{
+    display: flex;
+    justify-content: center;
+    padding: 0 1em;
+    padding-top: 23em;
+}
+
+.twobuttons2a{
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    padding: 10px 70px;
+    border-radius: 50px;
+    margin: 0 5px;
+    opacity: 0.5;
+}
+
+.twobuttons2a a{
+    color: white;
+    text-decoration: none;
+}
+
+.twobuttons2b{
+    background-color: #fff;
+    padding: 10px 60px;
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+.twobuttons2b a{
+    color: black;
+    text-decoration: none;
+}
